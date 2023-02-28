@@ -2,7 +2,7 @@
 
 This repository contains the files to compare and contrast MapReduce and Spark using a given set of data.
 
-Steps folowed
+Steps followed
 1. Create an AWS EMR cluster with Hadoop, Hive and Spark installed
 2. Create an AWS S3 bucket and upload the provided csv file for analysis
 3. Connect to EMR through SSH
