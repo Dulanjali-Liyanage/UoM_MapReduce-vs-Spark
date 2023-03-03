@@ -1,7 +1,5 @@
 /* Connect to HiveQL */
-sudo chown hadoop -R /var/log/hive
-mkdir /var/log/hive/user/hadoop
-hive -d SAMPLE=s3://aws-tc-largeobjects/CUR-TF-200-ACDENG-1/emr-lab -d DAY=2009-04-13 -d HOUR=08 -d NEXT_DAY=2009-04-13 -d NEXT_HOUR=09 -d OUTPUT=s3://uom-assignment/output/
+hive
 
 /* Hive query*/
 CREATE EXTERNAL TABLE delay_flights (
